@@ -11,7 +11,8 @@ in the Access-Control-Allow-Headers.
 
 ##Ajax-anrop med withCredentials
 
-```var settings = {
+```
+var settings = {
     url: 'http://localhost:5000/data/animal.json',
     type: 'GET',
     dataType: 'json',
@@ -25,7 +26,8 @@ $.ajax(settings);
 
 ##Ajax-anrop med token-based-authentication
 
-```var settings = {
+```
+var settings = {
     url: 'http://localhost:5000/data/animal.json',
     type: 'GET',
     dataType: 'json',
