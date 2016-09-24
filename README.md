@@ -9,7 +9,7 @@ When using token based authentication preflighted CORS must be handled.
 That means responding to the OPTIONS request and making sure that Authorization is
 in the Access-Control-Allow-Headers.  
 
-##Ajax-anrop med withCredentials
+##Ajax request using withCredentials
 
 ```
 var settings = {
@@ -24,7 +24,7 @@ var settings = {
 $.ajax(settings);
 ```
 
-##Ajax-anrop med token-based-authentication
+##Ajax request for token based authentication
 
 ```
 var settings = {
